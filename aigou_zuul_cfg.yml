@@ -13,7 +13,7 @@ eureka:
       defaultZone: http://localhost:7001/eureka
 spring:
   application:
-    name: MICROSERVICE-ZUUL-GATEWAY-DEV
+    name: MICROSERVICE_ZUUL_GATEWAY_DEV
   profiles: dev
 zuul:
   routes:
@@ -33,7 +33,7 @@ eureka:
       defaultZone: http://localhost:7001/eureka
 spring:
   application:
-    name: MICROSERVICE-ZUUL-GATEWAY-TEST
+    name: MICROSERVICE_ZUUL_GATEWAY_TEST
   profiles: test
 zuul:
   routes:
