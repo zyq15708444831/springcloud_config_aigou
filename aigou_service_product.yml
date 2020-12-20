@@ -15,7 +15,7 @@ mybatis-plus:
   mapper-locations: classpath:cn/zhengyq/aigou/mapper/*Mapper.xml
   type-aliases-package: cn.zhengyq.aigou.domain
 server:
-  port: 8002
+  port: 8003
 ---
 spring:
   datasource:
@@ -30,4 +30,4 @@ mybatis-plus:
   mapper-locations: classpath:cn/zhengyq/aigou/mapper/*Mapper.xml
   type-aliases-package: cn.zhengyq.aigou.domain
 server:
-  port: 8002
+  port: 8004
